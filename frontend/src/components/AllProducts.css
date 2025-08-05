@@ -1,0 +1,36 @@
+.all-products {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.all-products h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.loading, .error-message {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.error-message {
+    color: #e24a4a;
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        justify-content: center;
+    }
+}
